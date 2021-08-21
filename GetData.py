@@ -6,7 +6,7 @@ from configparser import ConfigParser
 import pandas as pd
 
 
-configpath = 'C:\\Users\\taku0\\OneDrive\\デスクトップ\\Data Science\\Financial Data\\Config\\Configuration.cfg'
+configpath = '....(Path)\\Config\\Configuration.cfg'
 config = ConfigParser()
 config.read(configpath)
 
