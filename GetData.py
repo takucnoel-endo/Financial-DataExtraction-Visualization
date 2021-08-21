@@ -1,3 +1,9 @@
+'''
+This script extract past market data using data extraction API. 
+The initial values are set using configparser and configuration files. 
+User can change the setting of configuration files to change the companies that they want to analyse. 
+'''
+
 from datetime import datetime
 from numpy import datetime64
 import requests
