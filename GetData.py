@@ -12,7 +12,7 @@ from configparser import ConfigParser
 import pandas as pd
 
 
-configpath = '....(Path)\\Config\\Configuration.cfg'
+configpath = '[....Path]\\Configuration.cfg'
 config = ConfigParser()
 config.read(configpath)
 
